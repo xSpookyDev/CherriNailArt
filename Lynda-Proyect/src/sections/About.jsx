@@ -1,9 +1,9 @@
-import React from "react";
+
 import styled from "styled-components";
 
-import img1 from "../assets/Images/1.webp";
-import img2 from "../assets/Images/2.webp";
-import img3 from "../assets/Images/3.webp";
+import img1 from "../assets/Images/zero.webp";
+import img2 from "../assets/Images/rosa.webp";
+import img3 from "../assets/Images/lila.webp";
 
 const Section = styled.section`
   position: relative;
@@ -124,24 +124,14 @@ const About = () => {
         data-scroll-speed="-2"
         data-scroll-direction="horizontal"
       >
-        About Us
+        Acerca de mí
       </Title>
       <Left data-scroll data-scroll-sticky data-scroll-target="#fixed-target">
-        We're fashion studio based in california. We create unique designs that
-        will blow your mind. We also design unique jewellary pieces. Fashion is
-        an ART that can not be grasped by everyone.
+      Soy una artista de uñas con sede en Florida, especializada en crear diseños únicos y personalizados que te encantarán. Para mí, las uñas son una forma de arte que expresa estilo y personalidad.        <br />
         <br />
+        Ofrezco servicios presenciales de manicura y nail art, así como la venta de sets de uñas personalizadas que envío a cualquier parte. Trabajo con una amplia variedad de estilos para que encuentres el diseño perfecto que se adapte a ti.        <br />
         <br />
-        We are very dedicated to making our products. We offer unique and
-        creative products to a wide range of people. We have a variety of
-        styles, but for most people, all of the options are in the box. We
-        specialize in making things that make you happy.
-        <br />
-        <br />
-        We strive to build on our vision. As a fashion label, we do our best to
-        create amazing experiences for all people. We are always looking to make
-        something that is easy for everyone.
-      </Left>
+        Me apasiona hacer realidad la idea que tienes en mente y brindar una experiencia increíble, ya sea en persona o a través de mis productos enviados a domicilio. Tu satisfacción y felicidad son mi prioridad.      </Left>
       <Right>
         <img src={img1} alt="About Us" />
         <img

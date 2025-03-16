@@ -198,34 +198,28 @@ const Shop = () => {
   return (
     <Section ref={ref} id="shop">
       <Title data-scroll data-scroll-speed="-1">
-        New Collection
+      nueva colección
       </Title>
       <Left>
         <p>
-          The brand new collection is currently being developed in USA. We
-          create our products using best quality material, including the use of
-          some of the pure fabrics to make our products. All products are made
-          using the best materials, from the finest cotton to the finest
-          fabrics.
+        Además de ofrecer uñas personalizadas, también encontrarás accesorios exclusivos y todo lo necesario para lucir unas manos espectaculares. Cada pieza está diseñada para que puedas destacar y sentirte única, sin importar dónde estés.
           <br />
           <br />
-          We have lots of different clothing options like shoes, jackets and
-          dresses. Not only clothes but we also provide unique Jewellery as
-          well. It is great for us to carry our new clothes all around the
-          country and look different.
+
+Me encanta poder enviar mis creaciones a todo el país y que cada clienta lleve un estilo diferente y especial.
         </p>
       </Left>
       <Right ref={horizontalRef}>
-        <Product img={img1} title="Man Basics" />
-        <Product img={img2} title="Tops" />
-        <Product img={img3} title="Sweatshirts" />
-        <Product img={img4} title="Ethnic Wear" />
-        <Product img={img5} title="Blazers" />
-        <Product img={img6} title="Suits" />
-        <Product img={img7} title="Antiques" />
-        <Product img={img8} title="Jewellery" />
-        <Product img={img9} title="Watches" />
-        <Product img={img10} title="Special Edition" />
+        <Product img={img1} title="Estilo ruso" />
+        <Product img={img2} title="Estilo frances" />
+        <Product img={img3} title="Estilo ruso" />
+        <Product img={img4} title="Shotaro" />
+        <Product img={img5} title="Pochaco" />
+        <Product img={img6} title="Dark Coquette" />
+        <Product img={img7} title="Night Blue" />
+        <Product img={img8} title="OSO" />
+        <Product img={img9} title="Dark Coquette" />
+        <Product img={img10} title="Caroline" />
       </Right>
     </Section>
   );

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion";
 import { useLocomotiveScroll } from "react-locomotive-scroll";
@@ -139,7 +139,9 @@ const NavBar = () => {
           whileHover={{ scale: 1.1, y: -5 }}
           whileTap={{ scale: 0.9, Y: 0 }}
         >
-          shop
+          <a href="https://www.instagram.com/cherrinailart/" target="_blank" rel="noreferrer">
+              Shop
+            </a>
         </MenuItem>
         <MenuItem
           onClick={() => handleScroll("#new-arrival")}

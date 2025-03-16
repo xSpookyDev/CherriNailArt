@@ -217,7 +217,7 @@ Me encanta poder enviar mis creaciones a todo el país y que cada clienta lleve 
         <Product img={img5} title="Pochaco" />
         <Product img={img6} title="Dark Coquette" />
         <Product img={img7} title="Night Blue" />
-        <Product img={img8} title="OSO" />
+        <Product img={img8} title="Gloomy Bear" />
         <Product img={img9} title="Dark Coquette" />
         <Product img={img10} title="Caroline" />
       </Right>
